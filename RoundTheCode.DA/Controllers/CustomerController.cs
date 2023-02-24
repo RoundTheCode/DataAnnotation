@@ -4,6 +4,7 @@ using RoundTheCode.DA.Models;
 namespace RoundTheCode.DA.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class CustomerController : ControllerBase
     {
         [HttpPost]

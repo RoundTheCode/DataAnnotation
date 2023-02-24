@@ -18,6 +18,6 @@ namespace RoundTheCode.DA.Models
         public string? ZipCode { get; init; }
 
         [DataType(DataType.Date), Required, CustomerDateOfBirthValidation]
-        public DateTime? DateOfBirth { get; init; }
+        public DateTime DateOfBirth { get; init; }
     }
 }
